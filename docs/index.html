@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="meustlino.css">
+</head>
+
+<header">
+    <h1>BEM VINDO AO T-RAX GAME!!</h1>
+</header>
+
+<body>
+    <div class="mt-0" id="tela1">
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+        </div>
+        <div class="form-group">
+            <label>Gênero:</label>
+            <label><input type="radio" name="gender" value="masculino" required> Masculino</label>
+            <label><input type="radio" name="gender" value="feminino" required> Feminino</label>
+        </div>
+        <button type="submit" id="jogar">Enviar</button>
+    </form>
+</div>
+
+  <div class="game" id="tela2">
+    <span class="score"></span>
+    <div class="dino"></div>
+    <div class="cacto"></div>
+  </div>
+
+  <script src="meujava.js"></script>
+</body>
+</html>
