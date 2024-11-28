@@ -1,9 +1,8 @@
-/* Troca de tela 1 e 2 */
 window.addEventListener('load', (e) => {
     tela1.style.display = 'block'; 
     tela2.style.display = 'none'; 
 });
-
+/* Troca de tela 1 e 2 */
 
 const dino = document.querySelector(".dino"); /* Busca um elemento*/
 const cacto = document.querySelector(".cacto");
