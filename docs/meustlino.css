@@ -104,9 +104,10 @@ button:hover {
 
   
   .jump {
-    animation: jump 1.1s linear;
+    animation: jump 1.1s linear; /* Definicao de tempo e constancia */
   }
 
+  /* Controle do movimento do cacto */
   @keyframes cacto {
     0% {
       right: -20px;
@@ -115,9 +116,7 @@ button:hover {
       right: 850px;
     }
   }
- 
-  
-  
+ /* Controla o movimento do pulo vertical*/
   @keyframes jump {
     0% {
       bottom: 0;

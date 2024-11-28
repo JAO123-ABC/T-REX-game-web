@@ -8,8 +8,8 @@ window.addEventListener('load', (e) => {
 const dino = document.querySelector(".dino"); /* Busca um elemento*/
 const cacto = document.querySelector(".cacto");
 const score = document.querySelector(".score");
-let alreadyJump = false;
-let count = 0;
+let alreadyJump = false; /* Controlador de Pulo */
+let count = 0; /* Contador de pontos durante o game */
 let jogar = document.getElementById("jogar"); /* Busca o elemento pelo ID*/
 
 /* Configurara a transicao de tela  */
@@ -54,7 +54,7 @@ setInterval(() => {
     count = 0;
   }
 
-  /* Contador do Score*/
+  /* Contador do Score no final do game*/
   count++;
   score.innerHTML = `SCORE: ${count}`;
 }, 10);
